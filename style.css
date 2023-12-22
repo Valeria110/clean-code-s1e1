@@ -18,7 +18,8 @@ body {
 }
 
 @media (max-width:768px) {
-  .important-img-wrapper { text-align: center;
+  .important-img-wrapper {
+    text-align: center;
   }
 }
 .to-do-form {
