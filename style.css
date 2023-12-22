@@ -40,10 +40,13 @@ body {
   margin: 0;
   padding: 0px;
 }
-.list-item, .to-do-title, .completed-tasks-title {
+.list-item,
+.to-do-title,
+.completed-tasks-title {
   list-style: none;
 }
-.input,.button{
+.input,
+.button{
   outline: none;
 }
 .button {
