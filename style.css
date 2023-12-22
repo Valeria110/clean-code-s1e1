@@ -37,14 +37,14 @@ body {
 }
 #incomplete-tasks-list,
 #completed-tasks-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .list-item, .to-do-title, .completed-tasks-title {
-  list-style:none;
+  list-style: none;
 }
 .input,.button{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -138,14 +138,14 @@ body {
 
 /* Edit Task */
 .list-item .new-task-input {
-  display:none
+  display: none
 }
 
 .list-item.edit-mode .new-task-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list-item.edit-mode .task-label {
-  display:none;
+  display: none;
 }
