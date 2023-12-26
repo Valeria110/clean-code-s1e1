@@ -94,13 +94,13 @@ const editTask=function() {
   const editBtn=listItem.querySelector(".tasks-section__edit-btn");
   const containsClass=listItem.classList.contains("tasks-section__list-item_edit-modeedit-mode");
   //If class of the parent is .tasks-section__list-item_edit-mode
-  if(containsClass){
+  if (containsClass){
 
       //switch to .tasks-section__list-item_edit-mode
       //label becomes the inputs value.
       label.innerText=editInput.value;
       editBtn.innerText="Edit";
-  }else{
+  } else {
       editInput.value=label.innerText;
       editBtn.innerText="Save";
   }
