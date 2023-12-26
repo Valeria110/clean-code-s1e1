@@ -16,7 +16,6 @@ const completedTasksHolder = document.getElementById("completed-tasks-list");//c
 
 //New task list item
 const createNewTaskElement = function(taskString) {
-
   const listItem = document.createElement("li");
   listItem.classList.add("tasks-section__list-item");
 
@@ -77,7 +76,6 @@ const addTask = function() {
   bindTaskEvents(listItem, taskCompleted);
 
   taskInput.value = "";
-
 }
 
 //Edit an existing task.
@@ -118,7 +116,6 @@ const deleteTask = function() {
   const ul = listItem.parentNode;
   //Remove the parent list item from the ul.
   ul.removeChild(listItem);
-
 }
 
 
@@ -130,7 +127,6 @@ const taskCompleted = function() {
   const listItem = this.parentNode;
   completedTasksHolder.appendChild(listItem);
   bindTaskEvents(listItem, taskIncomplete);
-
 }
 
 
@@ -178,7 +174,6 @@ const bindTaskEvents = function(taskListItem,checkBoxEventHandler) {
 //cycle over incompleteTaskHolder ul list items
 //for each list item
 for (let i = 0; i<incompleteTaskHolder.children.length;i ++) {
-
   //bind events to list items chldren(tasks-completed-list)
   bindTaskEvents(incompleteTaskHolder.children[i],taskCompleted);
 }
