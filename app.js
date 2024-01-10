@@ -90,7 +90,8 @@ const editTask = function() {
   const editInput = listItem.querySelector(".new-task-input");
   const label = listItem.querySelector("label");
   const editBtn = listItem.querySelector(".tasks-section__edit-btn");
-  const containsClass = listItem.classList.contains("tasks-section__list-item_edit-modeedit-mode");
+  const containsClass = listItem.classList.contains("tasks-section__list-item_edit-mode");
+  console.log(containsClass)
   //If class of the parent is .tasks-section__list-item_edit-mode
   if (containsClass) {
 
