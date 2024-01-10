@@ -34,7 +34,7 @@ const createNewTaskElement = function(taskString) {
   //button.deleteconst
   const deleteButton = document.createElement("button");//delete button
   const deleteButtonImg = document.createElement("img");//delete button image
-  deleteButtonImg.classList.add("tasks-section__delete-btn-img");
+  deleteButtonImg.classList.add("delete-btn__img");
   deleteButtonImg.alt = "remove button image"
 
   label.innerText = taskString;
