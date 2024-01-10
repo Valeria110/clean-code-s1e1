@@ -123,12 +123,12 @@ body {
 .tasks-section__list-item >    .new-task-input {
    width: 226px
 }
-.tasks-section__delete-btn-img{
+.delete-btn__img{
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.tasks-section__delete-btn-img:hover {
+.delete-btn__img:hover {
   transform: rotateZ(0);
 }
 
